@@ -32,6 +32,10 @@
         $lenguajes = $_POST['lenguajes'];
         $perfil = $_POST['perfil'];
     }
+    else {
+    header("Location: form.php");
+    exit();
+    }
     ?>
         <div class="top_side">
             <div class="profileText">
